@@ -34,6 +34,9 @@ int main()
 		}
 	} while (choice != 3);
 
+	std::cout << "Для виходу з програми введіть будь який символ" << std::endl;
+	std::cin.get();
+
     return 0;
 }
 
